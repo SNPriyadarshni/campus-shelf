@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "items": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "messages": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      "$messageId": {
+        ".read": "auth != null && (data.child('ownerEmail').val() === auth.token.email || data.child('senderEmail').val() === auth.token.email)",
+        ".write": "auth != null && (data.child('ownerEmail').val() === auth.token.email || data.child('senderEmail').val() === auth.token.email)",
+        ".delete": "auth != null && data.child('ownerEmail').val() === auth.token.email"
+      }
+    }
+  }
+}

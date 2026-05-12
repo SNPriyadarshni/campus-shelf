@@ -1,0 +1,13 @@
+﻿Analyzing chat_room_page.dart, conversation_page.dart, messaging_service.dart...
+
+warning - lib\services\messaging_service.dart:161:15 - Unnecessary cast. Try removing the cast. - unnecessary_cast
+warning - lib\services\messaging_service.dart:164:15 - Unnecessary cast. Try removing the cast. - unnecessary_cast
+   info - lib\pages\chat_room_page.dart:122:46 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\pages\chat_room_page.dart:330:35 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\pages\chat_room_page.dart:427:35 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\pages\chat_room_page.dart:510:33 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\pages\conversation_page.dart:136:46 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\pages\conversation_page.dart:333:35 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\pages\conversation_page.dart:588:42 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+
+9 issues found.

@@ -1,0 +1,197 @@
+﻿Analyzing campus_shelf...                                       
+
+warning - Unused import: '../models/conversation_model.dart' - lib\pages\chat_room_page.dart:5:8 - unused_import
+   info - Parameter 'key' could be a super parameter - lib\pages\chat_room_page.dart:18:9 - use_super_parameters
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\chat_room_page.dart:73:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\chat_room_page.dart:190:33 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\pages\clear_chat_page.dart:18:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\pages\clear_chat_page.dart:25:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\pages\clear_chat_page.dart:40:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\pages\clear_chat_page.dart:47:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\pages\clear_chat_page.dart:62:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\pages\clear_chat_page.dart:69:28 - use_build_context_synchronously
+  error - The named parameter 'buyerEmail' is required, but there's no corresponding argument - lib\pages\contact_page.dart:47:32 - missing_required_argument
+  error - The named parameter 'sellerEmail' is required, but there's no corresponding argument - lib\pages\contact_page.dart:47:32 - missing_required_argument
+  error - The named parameter 'ownerEmail' isn't defined - lib\pages\contact_page.dart:52:11 - undefined_named_parameter
+   info - Don't use 'BuildContext's across async gaps - lib\pages\contact_page.dart:74:21 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\contact_page.dart:121:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\contact_page.dart:187:40 - deprecated_member_use
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\pages\contact_page.dart:255:21 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\pages\contact_page.dart:256:21 - deprecated_member_use
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\pages\contact_page.dart:267:21 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\pages\contact_page.dart:268:21 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\pages\conversation_page.dart:52:28 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\conversation_page.dart:163:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\item_detail_page.dart:205:40 - deprecated_member_use
+warning - Unused import: 'messages_page.dart' - lib\pages\landing_page.dart:12:8 - unused_import
+warning - Unused import: 'clear_chat_page.dart' - lib\pages\landing_page.dart:15:8 - unused_import
+warning - The value of the field '_unreadConversationsCount' isn't used - lib\pages\landing_page.dart:39:7 - unused_field
+  error - The method 'getUserConversations' isn't defined for the type 'MessagingService' - lib\pages\landing_page.dart:46:67 - undefined_method
+   info - Don't invoke 'print' in production code - lib\pages\landing_page.dart:58:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\landing_page.dart:79:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\landing_page.dart:109:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\pages\landing_page.dart:185:17 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\landing_page.dart:205:40 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\pages\login_page.dart:57:9 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\pages\messages_page.dart:58:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\messages_page.dart:67:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\messages_page.dart:76:7 - avoid_print
+warning - Unused import: '../services/clear_chat_service.dart' - lib\pages\my_conversations_page.dart:8:8 - unused_import
+  error - The method 'getUserConversations' isn't defined for the type 'MessagingService' - lib\pages\my_conversations_page.dart:40:63 - undefined_method
+   info - Don't invoke 'print' in production code - lib\pages\my_conversations_page.dart:67:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\my_conversations_page.dart:70:7 - avoid_print
+warning - Unused import: '../services/clear_chat_service.dart' - lib\pages\my_items_page.dart:8:8 - unused_import
+warning - Unused import: 'item_detail_page.dart' - lib\pages\my_items_page.dart:9:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\pages\my_items_page.dart:57:7 - avoid_print
+warning - The declaration '_buildMessagePreview' isn't referenced - lib\pages\my_items_page.dart:316:10 - unused_element
+   info - The local variable '_replyController' starts with an underscore - lib\pages\my_items_page.dart:377:33 - no_leading_underscores_for_local_identifiers
+  error - The method 'sendReply' isn't defined for the type 'MessagingService' - lib\pages\my_items_page.dart:453:44 - undefined_method
+warning - The declaration '_showAllMessages' isn't referenced - lib\pages\my_items_page.dart:499:8 - unused_element
+warning - The value of the local variable 'itemId' isn't used - lib\pages\post_item_page.dart:126:14 - unused_local_variable
+   info - Don't use 'BuildContext's across async gaps - lib\pages\post_item_page.dart:129:21 - use_build_context_synchronously
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\pages\post_item_page.dart:255:23 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\pages\post_item_page.dart:256:23 - deprecated_member_use
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\pages\post_item_page.dart:268:23 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\pages\post_item_page.dart:269:23 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\pages\signup_page.dart:54:9 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\pages\simple_chat_page.dart:40:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\simple_chat_page.dart:41:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\simple_chat_page.dart:42:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\simple_chat_page.dart:43:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\simple_chat_page.dart:48:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\simple_chat_page.dart:50:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\simple_chat_page.dart:62:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\simple_chat_page.dart:63:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\simple_chat_page.dart:64:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\simple_chat_page.dart:65:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\simple_chat_page.dart:74:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\simple_chat_page.dart:76:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\simple_chat_page.dart:82:7 - avoid_print
+  error - The named parameter 'buyerEmail' is required, but there's no corresponding argument - lib\pages\simple_chat_page.dart:98:30 - missing_required_argument
+  error - The named parameter 'sellerEmail' is required, but there's no corresponding argument - lib\pages\simple_chat_page.dart:98:30 - missing_required_argument
+  error - The named parameter 'ownerEmail' isn't defined - lib\pages\simple_chat_page.dart:103:9 - undefined_named_parameter
+   info - Don't use 'BuildContext's across async gaps - lib\pages\simple_chat_page.dart:114:28 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\pages\simple_chat_page.dart:122:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\pages\simple_chat_page.dart:123:28 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\simple_chat_page.dart:228:38 - deprecated_member_use
+warning - Unused import: '../theme/app_theme.dart' - lib\pages\whatsapp_chat_page.dart:2:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\pages\whatsapp_chat_page.dart:40:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\whatsapp_chat_page.dart:41:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\whatsapp_chat_page.dart:42:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\whatsapp_chat_page.dart:43:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\whatsapp_chat_page.dart:48:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\whatsapp_chat_page.dart:50:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\whatsapp_chat_page.dart:67:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\whatsapp_chat_page.dart:69:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\whatsapp_chat_page.dart:75:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\whatsapp_chat_page.dart:90:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\whatsapp_chat_page.dart:91:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\whatsapp_chat_page.dart:92:7 - avoid_print
+  error - The named parameter 'buyerEmail' is required, but there's no corresponding argument - lib\pages\whatsapp_chat_page.dart:95:30 - missing_required_argument
+  error - The named parameter 'sellerEmail' is required, but there's no corresponding argument - lib\pages\whatsapp_chat_page.dart:95:30 - missing_required_argument
+  error - The named parameter 'ownerEmail' isn't defined - lib\pages\whatsapp_chat_page.dart:100:9 - undefined_named_parameter
+   info - Don't invoke 'print' in production code - lib\pages\whatsapp_chat_page.dart:104:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\pages\whatsapp_chat_page.dart:113:28 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\pages\whatsapp_chat_page.dart:121:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\pages\whatsapp_chat_page.dart:122:28 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\whatsapp_chat_page.dart:320:40 - deprecated_member_use
+warning - Unused import: '../theme/app_theme.dart' - lib\pages\working_chat_page.dart:2:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\pages\working_chat_page.dart:40:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\working_chat_page.dart:41:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\working_chat_page.dart:42:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\working_chat_page.dart:43:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\working_chat_page.dart:48:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\working_chat_page.dart:50:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\working_chat_page.dart:67:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\working_chat_page.dart:69:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\working_chat_page.dart:75:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\working_chat_page.dart:90:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\working_chat_page.dart:91:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\working_chat_page.dart:92:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\working_chat_page.dart:93:7 - avoid_print
+  error - The named parameter 'buyerEmail' is required, but there's no corresponding argument - lib\pages\working_chat_page.dart:96:30 - missing_required_argument
+  error - The named parameter 'sellerEmail' is required, but there's no corresponding argument - lib\pages\working_chat_page.dart:96:30 - missing_required_argument
+  error - The named parameter 'ownerEmail' isn't defined - lib\pages\working_chat_page.dart:101:9 - undefined_named_parameter
+   info - Don't invoke 'print' in production code - lib\pages\working_chat_page.dart:105:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\pages\working_chat_page.dart:114:28 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\pages\working_chat_page.dart:122:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\pages\working_chat_page.dart:123:28 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\working_chat_page.dart:326:40 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:20:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:24:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:34:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:38:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:42:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:54:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:69:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:73:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:83:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:84:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:97:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:111:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:121:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\clear_chat_service.dart:13:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\clear_chat_service.dart:27:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\clear_chat_service.dart:30:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\clear_chat_service.dart:33:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\clear_chat_service.dart:40:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\clear_chat_service.dart:54:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\clear_chat_service.dart:57:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\clear_chat_service.dart:60:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\clear_chat_service.dart:67:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\clear_chat_service.dart:71:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\clear_chat_service.dart:73:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\firestore_service.dart:12:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\firestore_service.dart:14:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\firestore_service.dart:32:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\firestore_service.dart:35:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\firestore_service.dart:65:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\firestore_service.dart:96:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\firestore_service.dart:114:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\firestore_service.dart:135:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\item_service.dart:9:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\item_service.dart:22:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\item_service.dart:65:5 - avoid_print
+warning - Unnecessary cast - lib\services\messaging_service.dart:160:15 - unnecessary_cast
+warning - Unnecessary cast - lib\services\messaging_service.dart:163:15 - unnecessary_cast
+   info - Don't invoke 'print' in production code - lib\services\messaging_service.dart:582:25 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\notification_service.dart:20:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\notification_service.dart:22:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\notification_service.dart:42:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\notification_service.dart:44:7 - avoid_print
+   info - Unnecessary braces in a string interpolation - lib\services\notification_service.dart:102:2 - unnecessary_brace_in_string_interps
+   info - Don't invoke 'print' in production code - lib\services\realtime_service.dart:23:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\realtime_service.dart:26:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\realtime_service.dart:52:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\realtime_service.dart:55:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\realtime_service.dart:76:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\realtime_service.dart:97:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\realtime_service.dart:115:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\realtime_service.dart:131:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\realtime_service.dart:140:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\realtime_service.dart:142:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\test_firebase.dart:8:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\test_firebase.dart:14:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\test_firebase.dart:18:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\test_firebase.dart:22:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\test_firebase.dart:26:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\test_firebase.dart:29:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\test_firebase.dart:32:7 - avoid_print
+  error - The name 'MyApp' isn't a class - test\widget_test.dart:16:35 - creation_with_non_type
+
+flutter : 178 issues 
+found. (ran in 1.4s)
+At line:1 char:1
++ flutter analyze 2>&1 | 
+Out-File -FilePath 
+.\analyze_output.txt 
+-Encod ...
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (178  
+   issues found. (ran in   
+  1.4s):String) [], Rem    
+oteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
